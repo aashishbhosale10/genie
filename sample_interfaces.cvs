@@ -1,0 +1,6 @@
+Device,Interface,MAC Address
+R1,FastEthernet0/0,ca01.48bd.0000
+R1,FastEthernet1/0,ca01.48bd.001c
+R1,FastEthernet2/0,ca01.48bd.0038
+R1,FastEthernet3/0,ca01.48bd.0054
+R1,Loopback3,N/A
