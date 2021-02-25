@@ -1,0 +1,23 @@
+testbed:
+    name: 'Collect Interfaces Details'
+
+devices:
+    R1:
+        type: "ios"
+        os: "ios"
+        alias: uut
+        tacacs:
+            login_prompt: 'Username:'
+            password_prompt: 'Password:'
+            username: cisco
+        passwords:
+            tacacs: cisco
+            enable: cisco
+            line: cisco
+        connections:
+            vty:
+                protocol: telnet
+                ip: 192.168.101.148
+        custom:
+            abstraction:
+                order: [os, type]
